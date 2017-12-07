@@ -24,6 +24,7 @@ header > button {
 
 .container {
   display: flex;
+  
 }
 
 
@@ -48,15 +49,18 @@ header > button {
 
 
 button {
-  flex: 1 1 auto;
+  background-color: #B8B8B8;
+  flex: 1 1 10px;
+  justify-content: space-between;
   margin-top: 5px;
   margin-left: 5px;
-  width: 190px;
   height: auto;
   font-family: 'Comfortaa', cursive;
   font-size: 2em;
   padding: 2px;
-  border-radius: 10px;
+  border-radius: 7px;
+  box-shadow: 0px 5px 0px 0px #000;
+
 }
 
 button#btnTiondel{
